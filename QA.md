@@ -63,3 +63,10 @@
 - MEASURED: Browser warning and error logs were empty after switching Adult to Younglings and back. `npm run check` passed after the model and catalogue changes.
 - NOT YET CHECKED: Younglings flipbook controls need a real youth garment in every slot before they can be exercised. No youth knit assets were present in this pass.
 
+## 2026-09-20 public SOFT RIOT launch
+
+- MEASURED: GitHub Pages serves `https://technicallytechnicaldesign.github.io/SOFT_RIOT/` over HTTPS from the public `technicallytechnicaldesign/SOFT_RIOT` repository.
+- MEASURED: The public wardrobe lists 24 real garments, the closet rail lists 23, and the only accessory is the photographed string bag; all three concept boots are excluded.
+- MEASURED: The rail uses light product boards for dark yarn, overlaps adjacent cards by 33 px, and raises a hovered or keyboard-focused hanger above its neighbours.
+- MEASURED: The published browser page has the requested `CHAOTIC KNITS FOR CHAOTIC BEHAVIOUR` headline and no warning or error logs.
+
