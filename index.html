@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#080710">
+  <meta name="description" content="An unruly handmade wardrobe. Flip, clash and remix knitted creatures.">
+  <title>SOFT RIOT — a wardrobe in motion</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css?v=20260919-younglings">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to wardrobe</a>
+  <header class="masthead">
+    <a href="#wardrobe" class="wordmark" aria-label="Soft Riot wardrobe">SOFT<span>✳</span>RIOT</a>
+    <span class="edition">A HANDMADE MUTATION<br>VOL. 001 / FITTING EXPERIMENT</span>
+    <div class="model-toggle" role="group" aria-label="Choose fitting mannequin"><span>MODEL</span><button type="button" data-figure-mode="adult" aria-pressed="true">ADULT</button><button type="button" data-figure-mode="youngling" aria-pressed="false">YOUNGLINGS</button></div>
+    <nav aria-label="Main"><a href="#wardrobe" data-route="wardrobe">Wardrobe <sup id="count-wardrobe">12</sup></a><a href="#closet" data-route="closet">Closet <sup id="count-closet">9</sup></a><a href="#flipbook" data-route="flipbook">Flipbook <span aria-hidden="true">↗</span></a></nav>
+    <button id="motion" class="motion" aria-pressed="false" aria-label="Pause motion"><span aria-hidden="true">Ⅱ</span><span class="motion-label">Pause motion</span></button>
+  </header>
+  <main id="main">
+    <section id="wardrobe" aria-labelledby="wardrobe-title">
+      <div class="intro"><h1 id="wardrobe-title">CHAOTIC KNITS.<br><span>FOR CHAOTIC BEHAVIOUR.</span></h1><div class="intro-side"><p>A wardrobe with a loose screw.<br>Pick a piece. Make a creature.</p><a href="#flipbook" class="round-link" aria-label="Open outfit flipbook">↗</a></div><span class="issue">ALL YARN.<br>NO RULES.</span></div>
+      <div class="wardrobe-meta"><span>THE WARDROBE / <b id="count-pieces">12 PIECES</b></span><span class="drag-hint">HOVER TO DISTURB · TAP TO WEAR</span><span id="count-range">01—12</span></div>
+      <div id="wardrobe-grid" class="wardrobe-grid"><canvas id="wardrobe-canvas" aria-hidden="true"></canvas></div>
+      <div class="wardrobe-end"><span>UNRAVEL THE USUAL.</span><a href="#flipbook">Enter the flipbook ↗</a></div>
+    </section>
+    <section id="closet" hidden aria-labelledby="closet-title">
+      <div class="closet-intro"><h1 id="closet-title">THE<br><span>RAIL.</span></h1><p id="closet-lede">Nine knits on hangers. Drag or scroll between them, or use the arrows. Pull the drawer for extras.</p></div>
+      <div class="rail-wrap">
+        <button class="rail-arrow rail-prev" aria-label="Scroll rail left">←</button>
+        <div id="rail-track" class="rail-track" tabindex="0" aria-label="Garment rail: drag, scroll, or use arrow keys to browse"></div>
+        <button class="rail-arrow rail-next" aria-label="Scroll rail right">→</button>
+      </div>
+      <div class="drawer-unit">
+        <button id="drawer-handle" class="drawer-handle" aria-expanded="false" aria-controls="drawer-tray"><span>Accessories drawer <sup id="count-drawer">3</sup></span><span class="drawer-icon" aria-hidden="true">▾</span></button>
+        <div id="drawer-tray" class="drawer-tray" hidden></div>
+      </div>
+      <div class="wardrobe-end"><span>HANG IT UP.</span><a href="#flipbook">Enter the flipbook ↗</a></div>
+    </section>
+    <section id="flipbook" hidden aria-labelledby="flipbook-title">
+      <div class="flip-intro"><div><p class="eyebrow" id="flipbook-eyebrow">THE FITTING EXPERIMENT</p><h1 id="flipbook-title">ALTER<br><span>EGO.</span></h1><p class="flip-note" id="flip-note">Four parts.<br>No correct combination.</p></div><div class="look-stamp"><span>LOOK</span><strong id="look-number">001</strong><span id="look-total">OF 81 POSSIBLE MUTATIONS</span></div></div>
+      <div class="fitting-room"><div class="stage-top"><span>SPECIMEN / <b id="specimen">BLUE DEVIL</b></span><span id="stage-instruction">↔ FLIP EACH SECTION</span></div><div class="figure-shell"><div id="figure" class="figure" aria-label="Current outfit"></div><div class="spine" aria-hidden="true"></div><div class="youngling-callout" id="youngling-callout" hidden><span>YOUNGLING CHAOS</span><strong>READY FOR THE FIRST KNIT.</strong><p>A separate, smaller fitting form. Adult layers do not cross this line.</p></div></div><div class="stage-bottom"><span id="stage-footer">HANDMADE / REASSEMBLED</span><span>01 : 01</span></div></div>
+      <aside class="outfit-panel" id="adult-outfit-panel"><div class="outfit-heading"><h2>THE ANATOMY</h2><span>4 / 4</span></div><div id="outfit-controls"></div><button id="shuffle" class="shuffle"><span>MAKE IT WEIRDER</span><span aria-hidden="true">⤨</span></button><p class="shuffle-note">A little chaos looks good on you.</p><a href="#wardrobe" class="back-link">↙ Back to the wardrobe</a></aside>
+      <aside class="youngling-panel" id="youngling-panel" hidden><div class="outfit-heading"><h2>SMALL RIOT</h2><span>0 / 4</span></div><p>Youngling pieces get their own cabinet and their own fits. The adult wardrobe stays cleanly separate.</p><p class="youngling-schema">TAG NEW LAYERS<br><code>"audience": "youngling"</code></p><a href="../../04_DOCS/fitting-editor.html?model=youngling" class="youngling-link">FIT THE FIRST YOUNGLING KNIT ↗</a><a href="#wardrobe" class="back-link">↙ Back to the adult wardrobe</a></aside>
+    </section>
+  </main>
+  <footer><span>SOFT RIOT © 2026</span><span>REAL KNITS · NO PLACEHOLDERS</span><span>STITCHED BY HAND. WIRED DIFFERENTLY.</span></footer>
+  <div id="announce" class="sr-only" role="status" aria-live="polite"></div>
+  <script type="module" src="./app.js?v=20260920-soft-riot"></script>
+</body>
+</html>

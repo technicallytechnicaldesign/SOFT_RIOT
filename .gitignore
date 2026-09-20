@@ -1,0 +1,4 @@
+# Local-only development and recovery assets.
+.DS_Store
+assets/garments/boots-*.webp
+assets/knit-figures.png
