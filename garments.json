@@ -1,0 +1,700 @@
+{
+ "figure": {
+  "aspect": [
+   1,
+   2
+  ],
+  "heightCm": 170,
+  "zones": {
+   "hairpiece": [
+    0,
+    0.205
+   ],
+   "top": [
+    0.205,
+    0.38
+   ],
+   "bottoms": [
+    0.38,
+    0.77
+   ],
+   "accessory": [
+    0.77,
+    1
+   ]
+  }
+ },
+ "figures": {
+  "adult": {
+   "heightCm": 170
+  },
+  "youngling": {
+   "heightCm": 120
+  }
+ },
+ "note": "fit.x,y = garment centre as a fraction of figure width and height. fit.w = garment width as a fraction of figure width. bakedRot = degrees clockwise already applied to the image by export_garments.py; fit.rot is a live tweak on top. Edited with 04_DOCS/fitting-editor.html.",
+ "garments": [
+  {
+   "id": "boots-0",
+   "photo": "concept",
+   "name": "Heavy metal",
+   "slot": "accessory",
+   "status": "placeholder",
+   "audience": "adult",
+   "file": "assets/garments/boots-0.webp",
+   "px": [
+    212,
+    275
+   ],
+   "source": "knit-figures.png (AI concept sheet)",
+   "bakedRot": 0,
+   "cropW": 212,
+   "fit": {
+    "x": 0.519,
+    "y": 0.8969,
+    "w": 0.3,
+    "rot": 0,
+    "flip": false,
+    "z": 3
+   },
+   "placeholder": true
+  },
+  {
+   "id": "boots-1",
+   "photo": "concept",
+   "name": "Blue stomp",
+   "slot": "accessory",
+   "status": "placeholder",
+   "audience": "adult",
+   "file": "assets/garments/boots-1.webp",
+   "px": [
+    310,
+    114
+   ],
+   "source": "knit-figures.png (AI concept sheet)",
+   "bakedRot": 0,
+   "cropW": 310,
+   "fit": {
+    "x": 0.5,
+    "y": 0.945,
+    "w": 0.34,
+    "rot": 0,
+    "flip": false,
+    "z": 40
+   },
+   "placeholder": true
+  },
+  {
+   "id": "boots-2",
+   "photo": "concept",
+   "name": "Fuzz pedal",
+   "slot": "accessory",
+   "status": "placeholder",
+   "audience": "adult",
+   "file": "assets/garments/boots-2.webp",
+   "px": [
+    229,
+    275
+   ],
+   "source": "knit-figures.png (AI concept sheet)",
+   "bakedRot": 0,
+   "cropW": 229,
+   "fit": {
+    "x": 0.5,
+    "y": 0.9026,
+    "w": 0.3,
+    "rot": 0,
+    "flip": false,
+    "z": 4
+   },
+   "placeholder": true
+  },
+  {
+   "id": "g35605",
+   "photo": "35605",
+   "name": "Lilac shrug and tank",
+   "slot": "top",
+   "status": "ready",
+   "audience": "adult",
+   "file": "assets/garments/g35605.webp",
+   "px": [
+    891,
+    900
+   ],
+   "source": "1000035605_fixed.png",
+   "bakedRot": 180,
+   "cropW": 1102,
+   "fit": {
+    "x": 0.5149,
+    "y": 0.2878,
+    "w": 0.571,
+    "rot": 0,
+    "flip": false,
+    "z": 20
+   }
+  },
+  {
+   "id": "g35606",
+   "photo": "35606",
+   "name": "Lilac shrug",
+   "slot": "top",
+   "status": "ready",
+   "audience": "adult",
+   "file": "assets/garments/g35606.webp",
+   "px": [
+    900,
+    899
+   ],
+   "source": "1000035606.png",
+   "bakedRot": 179,
+   "cropW": 1104,
+   "fit": {
+    "x": 0.5149,
+    "y": 0.2878,
+    "w": 0.571,
+    "rot": 0,
+    "flip": false,
+    "z": 20
+   }
+  },
+  {
+   "id": "g35607",
+   "photo": "35607",
+   "name": "Lilac tank top",
+   "slot": "top",
+   "status": "ready",
+   "audience": "adult",
+   "file": "assets/garments/g35607.webp",
+   "px": [
+    714,
+    900
+   ],
+   "source": "1000035607_fixed.png",
+   "bakedRot": 180,
+   "cropW": 896,
+   "fit": {
+    "x": 0.5128,
+    "y": 0.2361,
+    "w": 0.295,
+    "rot": 0,
+    "flip": true,
+    "z": 17
+   }
+  },
+  {
+   "id": "g35608",
+   "photo": "35608",
+   "name": "Grey and pink stripe top",
+   "slot": "top",
+   "status": "ready",
+   "audience": "adult",
+   "file": "assets/garments/g35608.webp",
+   "px": [
+    900,
+    779
+   ],
+   "source": "1000035608.png",
+   "bakedRot": 179,
+   "cropW": 1109,
+   "fit": {
+    "x": 0.5142,
+    "y": 0.2463,
+    "w": 0.4365,
+    "rot": 0,
+    "flip": false,
+    "z": 20
+   }
+  },
+  {
+   "id": "g35609",
+   "photo": "35609",
+   "name": "Orange cardigan",
+   "slot": "top",
+   "status": "ready",
+   "audience": "adult",
+   "file": "assets/garments/g35609.webp",
+   "px": [
+    900,
+    785
+   ],
+   "source": "1000035609.png",
+   "bakedRot": -88,
+   "cropW": 949,
+   "fit": {
+    "x": 0.5447,
+    "y": 0.2668,
+    "w": 0.475,
+    "rot": 0,
+    "flip": false,
+    "z": 20
+   }
+  },
+  {
+   "id": "g35610",
+   "photo": "35610",
+   "name": "Black and magenta stripe top",
+   "slot": "top",
+   "status": "ready",
+   "audience": "adult",
+   "file": "assets/garments/g35610.webp",
+   "px": [
+    900,
+    682
+   ],
+   "source": "1000035610.png",
+   "bakedRot": 180,
+   "cropW": 1239,
+   "fit": {
+    "x": 0.5194,
+    "y": 0.2512,
+    "w": 0.455,
+    "rot": 0,
+    "flip": false,
+    "z": 20
+   }
+  },
+  {
+   "id": "g35612",
+   "photo": "35612",
+   "name": "Navy halter",
+   "slot": "top",
+   "status": "ready",
+   "audience": "adult",
+   "file": "assets/garments/g35612.webp",
+   "px": [
+    900,
+    787
+   ],
+   "source": "1000035612.png",
+   "bakedRot": -90,
+   "cropW": 1003,
+   "fit": {
+    "x": 0.5152,
+    "y": 0.2479,
+    "w": 0.41,
+    "rot": 0,
+    "flip": false,
+    "z": 20
+   }
+  },
+  {
+   "id": "g35613",
+   "photo": "35613",
+   "name": "Ombre lace dress",
+   "slot": "bottoms",
+   "status": "ready",
+   "audience": "adult",
+   "file": "assets/garments/g35613.webp",
+   "px": [
+    442,
+    900
+   ],
+   "source": "1000035613_fixed.png",
+   "bakedRot": -3,
+   "cropW": 637,
+   "fit": {
+    "x": 0.5533,
+    "y": 0.5092,
+    "w": 0.7067,
+    "rot": 0,
+    "flip": false,
+    "z": 10
+   }
+  },
+  {
+   "id": "g35614",
+   "photo": "35614",
+   "name": "Sequin mesh tank",
+   "slot": "top",
+   "status": "ready",
+   "audience": "adult",
+   "file": "assets/garments/g35614.webp",
+   "px": [
+    805,
+    900
+   ],
+   "source": "1000035614.png",
+   "bakedRot": 0,
+   "cropW": 996,
+   "fit": {
+    "x": 0.5095,
+    "y": 0.2548,
+    "w": 0.37,
+    "rot": 0,
+    "flip": false,
+    "z": 20
+   }
+  },
+  {
+   "id": "g35615",
+   "photo": "35615",
+   "name": "Black mesh tube",
+   "slot": "bottoms",
+   "status": "needs-touch",
+   "audience": "adult",
+   "file": "assets/garments/g35615.webp",
+   "px": [
+    454,
+    900
+   ],
+   "source": "1000035615.png",
+   "bakedRot": 0,
+   "cropW": 570,
+   "fit": {
+    "x": 0.5174,
+    "y": 0.6248,
+    "w": 0.51,
+    "rot": 0,
+    "flip": false,
+    "z": 10
+   }
+  },
+  {
+   "id": "g35616",
+   "photo": "35616",
+   "name": "Pink ombre tee",
+   "slot": "top",
+   "status": "ready",
+   "audience": "adult",
+   "file": "assets/garments/g35616.webp",
+   "px": [
+    900,
+    710
+   ],
+   "source": "1000035616.png",
+   "bakedRot": -42,
+   "cropW": 1125,
+   "fit": {
+    "x": 0.5106,
+    "y": 0.2538,
+    "w": 0.5469,
+    "rot": 0,
+    "flip": false,
+    "z": 20
+   }
+  },
+  {
+   "id": "g35617",
+   "photo": "35617",
+   "name": "Lace halter",
+   "slot": "top",
+   "status": "ready",
+   "audience": "adult",
+   "file": "assets/garments/g35617.webp",
+   "px": [
+    717,
+    900
+   ],
+   "source": "1000035617.png",
+   "bakedRot": -71,
+   "cropW": 735,
+   "fit": {
+    "x": 0.5049,
+    "y": 0.2567,
+    "w": 0.32,
+    "rot": 0,
+    "flip": false,
+    "z": 20
+   }
+  },
+  {
+   "id": "g35619",
+   "photo": "35619",
+   "name": "String bag",
+   "slot": "accessory",
+   "status": "ready",
+   "audience": "adult",
+   "file": "assets/garments/g35619.webp",
+   "px": [
+    772,
+    838
+   ],
+   "source": "1000035619_fixed.png",
+   "bakedRot": 0,
+   "cropW": 772,
+   "fit": {
+    "x": 0.7752,
+    "y": 0.5762,
+    "w": 0.28,
+    "rot": 0,
+    "flip": false,
+    "z": 40
+   }
+  },
+  {
+   "id": "g35620_01",
+   "photo": "35620",
+   "name": "Scrunchie 01",
+   "slot": "hairpiece",
+   "status": "needs-touch",
+   "audience": "adult",
+   "file": "assets/garments/g35620_01.webp",
+   "px": [
+    214,
+    206
+   ],
+   "source": "1000035620_fixed.png (item 1: 0 ring centre(s) punched)",
+   "bakedRot": 0,
+   "cropW": 214,
+   "fit": {
+    "x": 0.5343,
+    "y": 0.0362,
+    "w": 0.136,
+    "rot": 0,
+    "flip": false,
+    "z": 30
+   },
+   "set": "35620"
+  },
+  {
+   "id": "g35620_02",
+   "photo": "35620",
+   "name": "Scrunchie 02",
+   "slot": "hairpiece",
+   "status": "needs-touch",
+   "audience": "adult",
+   "file": "assets/garments/g35620_02.webp",
+   "px": [
+    207,
+    203
+   ],
+   "source": "1000035620_fixed.png (item 2: 0 ring centre(s) punched)",
+   "bakedRot": 0,
+   "cropW": 207,
+   "fit": {
+    "x": 0.5305,
+    "y": 0.0305,
+    "w": 0.1321,
+    "rot": 0,
+    "flip": false,
+    "z": 30
+   },
+   "set": "35620"
+  },
+  {
+   "id": "g35620_03",
+   "photo": "35620",
+   "name": "Scrunchie 03",
+   "slot": "hairpiece",
+   "status": "needs-touch",
+   "audience": "adult",
+   "file": "assets/garments/g35620_03.webp",
+   "px": [
+    321,
+    299
+   ],
+   "source": "1000035620_fixed.png (item 3: 0 ring centre(s) punched)",
+   "bakedRot": 0,
+   "cropW": 321,
+   "fit": {
+    "x": 0.5152,
+    "y": 0.0371,
+    "w": 0.205,
+    "rot": 0,
+    "flip": false,
+    "z": 30
+   },
+   "set": "35620"
+  },
+  {
+   "id": "g35620_04",
+   "photo": "35620",
+   "name": "Scrunchie 04",
+   "slot": "hairpiece",
+   "status": "needs-touch",
+   "audience": "adult",
+   "file": "assets/garments/g35620_04.webp",
+   "px": [
+    181,
+    179
+   ],
+   "source": "1000035620_fixed.png (item 4: 0 ring centre(s) punched)",
+   "bakedRot": 0,
+   "cropW": 181,
+   "fit": {
+    "x": 0.5324,
+    "y": 0.0381,
+    "w": 0.1154,
+    "rot": 0,
+    "flip": false,
+    "z": 30
+   },
+   "set": "35620"
+  },
+  {
+   "id": "g35620_05",
+   "photo": "35620",
+   "name": "Scrunchie 05",
+   "slot": "hairpiece",
+   "status": "needs-touch",
+   "audience": "adult",
+   "file": "assets/garments/g35620_05.webp",
+   "px": [
+    232,
+    213
+   ],
+   "source": "1000035620_fixed.png (item 5: 0 ring centre(s) punched)",
+   "bakedRot": 0,
+   "cropW": 232,
+   "fit": {
+    "x": 0.5419,
+    "y": 0.0295,
+    "w": 0.1483,
+    "rot": 0,
+    "flip": false,
+    "z": 30
+   },
+   "set": "35620"
+  },
+  {
+   "id": "g35620_06",
+   "photo": "35620",
+   "name": "Scrunchie 06",
+   "slot": "hairpiece",
+   "status": "needs-touch",
+   "audience": "adult",
+   "file": "assets/garments/g35620_06.webp",
+   "px": [
+    180,
+    178
+   ],
+   "source": "1000035620_fixed.png (item 6: 0 ring centre(s) punched)",
+   "bakedRot": 0,
+   "cropW": 180,
+   "fit": {
+    "x": 0.5324,
+    "y": 0.0248,
+    "w": 0.1151,
+    "rot": 0,
+    "flip": false,
+    "z": 30
+   },
+   "set": "35620"
+  },
+  {
+   "id": "g35620_07",
+   "photo": "35620",
+   "name": "Scrunchie 07",
+   "slot": "hairpiece",
+   "status": "needs-touch",
+   "audience": "adult",
+   "file": "assets/garments/g35620_07.webp",
+   "px": [
+    217,
+    193
+   ],
+   "source": "1000035620_fixed.png (item 7: 0 ring centre(s) punched)",
+   "bakedRot": 0,
+   "cropW": 217,
+   "fit": {
+    "x": 0.5419,
+    "y": 0.0295,
+    "w": 0.1379,
+    "rot": 0,
+    "flip": false,
+    "z": 30
+   },
+   "set": "35620"
+  },
+  {
+   "id": "g35620_08",
+   "photo": "35620",
+   "name": "Scrunchie 08",
+   "slot": "hairpiece",
+   "status": "needs-touch",
+   "audience": "adult",
+   "file": "assets/garments/g35620_08.webp",
+   "px": [
+    197,
+    184
+   ],
+   "source": "1000035620_fixed.png (item 8: 0 ring centre(s) punched)",
+   "bakedRot": 0,
+   "cropW": 197,
+   "fit": {
+    "x": 0.5362,
+    "y": 0.0305,
+    "w": 0.126,
+    "rot": 0,
+    "flip": false,
+    "z": 30
+   },
+   "set": "35620"
+  },
+  {
+   "id": "g35620_09",
+   "photo": "35620",
+   "name": "Scrunchie 09",
+   "slot": "hairpiece",
+   "status": "needs-touch",
+   "audience": "adult",
+   "file": "assets/garments/g35620_09.webp",
+   "px": [
+    205,
+    188
+   ],
+   "source": "1000035620_fixed.png (item 9: 0 ring centre(s) punched)",
+   "bakedRot": -73,
+   "cropW": 205,
+   "fit": {
+    "x": 0.4654,
+    "y": 0.0311,
+    "w": 0.0963,
+    "rot": 0,
+    "flip": false,
+    "z": 30
+   },
+   "set": "35620"
+  },
+  {
+   "id": "g35620_11",
+   "photo": "35620",
+   "name": "Scrunchie 11",
+   "slot": "hairpiece",
+   "status": "needs-touch",
+   "audience": "adult",
+   "file": "assets/garments/g35620_11.webp",
+   "px": [
+    221,
+    205
+   ],
+   "source": "1000035620_fixed.png (item 11: 0 ring centre(s) punched)",
+   "bakedRot": 0,
+   "cropW": 221,
+   "fit": {
+    "x": 0.4829,
+    "y": 0.0305,
+    "w": 0.141,
+    "rot": 0,
+    "flip": false,
+    "z": 30
+   },
+   "set": "35620"
+  },
+  {
+   "id": "g35620_12",
+   "photo": "35620",
+   "name": "Scrunchie 12",
+   "slot": "hairpiece",
+   "status": "needs-touch",
+   "audience": "adult",
+   "file": "assets/garments/g35620_12.webp",
+   "px": [
+    199,
+    217
+   ],
+   "source": "1000035620_fixed.png (item 12: 0 ring centre(s) punched)",
+   "bakedRot": 0,
+   "cropW": 199,
+   "fit": {
+    "x": 0.4695,
+    "y": 0.0343,
+    "w": 0.1266,
+    "rot": 0,
+    "flip": false,
+    "z": 30
+   },
+   "set": "35620"
+  }
+ ]
+}
