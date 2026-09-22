@@ -1,21 +1,8 @@
 ﻿# SOFT RIOT / prototype 001
 
-A self-hosted knitting wardrobe and four-part fashion flipbook, inspired by the playful outfit selection in Clueless and a post-punk collage aesthetic.
+A wardrobe for my chaotic knitting projects, and a try on gallery thing inspired by the outfit flipbook in Clueless but with a horrible half punk collage aesthetic.
+LIVE: (https://technicallytechnicaldesign.github.io/SOFT_RIOT/)
 
-## Run it locally
-
-With Node.js installed, run `npm run dev` in this folder, then open http://127.0.0.1:8080.
-No package installation or build is needed. Alternatively run `python -m http.server 8080 --bind 127.0.0.1` here.
-Use an HTTP server; browser security prevents ES modules from working by double-clicking index.html.
-
-## Host it yourself
-
-Upload `index.html`, `style.css`, `app.js`, `catalog.js`, `garments.json`, `favicon.svg`, `assets/`, and `vendor/` to any static HTTP(S) host.
-They work in a subdirectory as well as a domain root. Serve `.js` as JavaScript and `.png` as PNG.
-No server-side app, OpenAI account, API key, CDN, external font, database, analytics, or build service is involved.
-The JavaScript source and unmodified Three.js 0.180.0 distribution are included; preserve `vendor/LICENSE`.
-
-The included Node server is a loopback-only development convenience, not a production server.
 
 ## Explore
 
@@ -27,6 +14,23 @@ The included Node server is a loopback-only development convenience, not a produ
 - Pause motion stops the floating wardrobe and section animations; operating-system reduced motion is respected.
 - Buttons support keyboard operation and have accessible names. Without WebGL the wardrobe uses static image cards.
 
+
+
+## If you want to take this shit and run it locally
+
+With Node.js installed, run `npm run dev` in this folder, then open http://127.0.0.1:8080.
+No package installation or build is needed. 
+
+## If you wanna host it yourself
+
+Upload `index.html`, `style.css`, `app.js`, `catalog.js`, `garments.json`, `favicon.svg`, `assets/`, and `vendor/` to any static HTTP(S) host.
+They work in a subdirectory as well as a domain root. Serve `.js` as JavaScript and `.png` as PNG.
+No server-side app, OpenAI account, API key, CDN, external font, database, analytics, or build service is involved.
+The JavaScript source and unmodified Three.js 0.180.0 distribution are included; preserve `vendor/LICENSE`.
+
+The included Node server is a loopback-only development convenience, not a production server.
+
+
 ## Where to change things
 
 - `garments.json`: the garment list, one entry per layer (slot, image file, size, `audience`, and `fit`: centre x and y as a fraction of the figure box, width as a fraction of the figure width, layer order). Made by `02_WORK/photo-prep/export_garments.py`; the fits are set in the fitting editor (`04_DOCS/fitting-editor.html`).
@@ -37,24 +41,10 @@ The included Node server is a loopback-only development convenience, not a produ
 - `assets/figure/cyber-goth-mannequin-base-v2.png`: the transparent, straight-on gloss-black Adult mannequin base beneath the layered garments.
 - `assets/figure/cyber-goth-youngling-base-v1.png`: the transparent compact Younglings mannequin base, in the same black lacquer and neon reflection language.
 
-SOFT RIOT is a working title, not a settled brand. The hairpieces, tops, bottoms and bag are photographs of the maker's own knits.
-
-## Garment layers (2026-09-18)
-
-The flipbook layers one transparent garment per section over a full rendered featureless neon-black mannequin, with placement from `garments.json`, so sleeves and long pieces are no longer cut at section edges. Changing a garment turns the old one away from its own left edge. Cutouts are made with rembg in a venv at `D:\venvs\knit-chaos` (see `02_WORK/photo-prep/requirements.txt`) and cleaned in `04_DOCS/cutout-touchup.html`.
-
-For the next photo session:
-
-1. Photograph each piece front-on on a plain matte background that contrasts with the yarn; leave room around all loose threads.
-2. Use the same camera angle and soft, even light; retain full-resolution originals.
-3. For pieces that drape, include a worn or mannequin shot as well as a flat shot.
-4. Include an approximate width and height so the placement scale can be set consistently.
-
-Keep original photos in the project's `01_RESEARCH/` (first drop: `photo-drop-2026-09-18/originals/`); derived web assets belong here in `assets/garments/`. Fits are set by hand, not automatically; the worn or mannequin shots would let a fit be checked against a real body.
 
 ## Younglings lane
 
-Younglings is a separate, empty garment lane until the first youth knit cutouts arrive. It uses the compact, abstract neon-black display mannequin and a default 120 cm fitting reference. Nothing is copied from the Adult wardrobe.
+Younglings is a separate, empty garment lane until the first youth knit cutouts arrive. It uses the compact, abstract neon-black display mannequin and a default 120 cm fitting reference. 
 
 To add a youth layer, process the cutout as usual, then set `"audience": "youngling"` on that garment in `garments.json` or select **Younglings** in the fitting editor and choose the garment's Audience field before saving. `export_garments.py` preserves that tag on future exports. The website filters the wardrobe by this field, so all four slots need at least one Younglings layer before the flipbook controls appear.
 
