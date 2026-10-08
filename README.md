@@ -50,4 +50,4 @@ To add a youth layer, process the cutout as usual, then set `"audience": "youngl
 
 ## Validation
 
-See `QA.md` for the prototype checks. There is no backend and no outfit persistence; a reload restores the starting outfit.
+There is no backend and no outfit persistence; a reload restores the starting outfit.
