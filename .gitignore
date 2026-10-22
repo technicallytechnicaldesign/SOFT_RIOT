@@ -1,0 +1,9 @@
+.DS_Store
+assets/garments/boots-*.webp
+assets/knit-figures.png
+
+node_modules/
+*.md
+!README.md
+*.mdx
+*.rst

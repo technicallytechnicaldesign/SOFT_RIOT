@@ -1,0 +1,8 @@
+{
+  "name": "soft-riot-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A self-hosted kinetic knitting wardrobe and outfit flipbook",
+  "scripts": { "dev": "node serve.mjs", "check": "node --check app.js && node --check catalog.js && node --check serve.mjs" }
+}
